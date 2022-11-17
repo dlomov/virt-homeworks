@@ -73,3 +73,5 @@ override.tf.json
 terraform.rc
 .terraform.lock*
 key.json
+05-virt-04-docker-compose/src/terraform/id_rsa.pub
+05-virt-04-docker-compose/src/terraform/id_rsa.pub.pub
