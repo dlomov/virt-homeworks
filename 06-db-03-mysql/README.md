@@ -172,7 +172,7 @@ mysql> SHOW PROFILES;
 
 Изучите файл `my.cnf` в директории /etc/mysql.
 ```text
-
+Файл лежит в /etc/.
 ```
 
 Измените его согласно ТЗ (движок InnoDB):
