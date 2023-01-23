@@ -8,6 +8,7 @@
 ## Задача 1
 
 Используя docker поднимите инстанс MySQL (версию 8). Данные БД сохраните в volume.
+[Docker-compose.yaml](https://github.com/dlomov/virt-homeworks/blob/master/06-db-03-mysql/docker-compose.yaml).
 ```bash
 ➜  06-db-03-mysql git:(master) ✗ docker-compose -f docker-compose.yaml up -d
 [+] Running 12/12
