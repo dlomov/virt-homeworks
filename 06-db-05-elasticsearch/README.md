@@ -11,7 +11,9 @@
 [документацию по установке и запуску Elastcisearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html):
 
 - составьте Dockerfile-манифест для elasticsearch
-[Dockerfile]
+[Dockerfile](https://github.com/dlomov/virt-homeworks/blob/master/06-db-05-elasticsearch/Dockerfile)
+[elasticsearch.yml](https://github.com/dlomov/virt-homeworks/blob/master/06-db-05-elasticsearch/elasticsearch.yml)
+[logging.yml](https://github.com/dlomov/virt-homeworks/blob/master/06-db-05-elasticsearch/logging.yml)
 - соберите docker-образ и сделайте `push` в ваш docker.io репозиторий
 ```bash
 ➜  06-db-05-elasticsearch git:(master) ✗ docker build -t dlomov/elasticsearch:8.6.0 .
